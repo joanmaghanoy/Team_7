@@ -1,0 +1,25 @@
+def bitwise_operations():
+
+    num1 = input("Enter the first 8-bit binary number: ")
+    num2 = input("Enter the second 8-bit binary number: ")
+
+
+    num1_int = int(num1, 2)
+    num2_int = int(num2, 2)
+
+
+    and_result = num1_int & num2_int
+
+
+    or_result = num1_int | num2_int
+
+
+    and_result_bin = format(and_result, '08b')
+    or_result_bin = format(or_result, '08b')
+
+
+    print(f"AND operation result: {and_result_bin}")
+    print(f"OR operation result: {or_result_bin}")
+
+if __name__ == "__main__":
+    bitwise_operations()O
